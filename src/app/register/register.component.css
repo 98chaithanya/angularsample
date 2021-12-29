@@ -1,0 +1,51 @@
+.reg {
+    max-width: 100%;
+    height: 700px;
+    text-align: center;
+    background-size: cover;
+}
+
+.register {
+    width: 100%;
+    height: 90%;
+    margin-top: 5%;
+    text-align: left;
+    margin-left: 40%;
+}
+
+button {
+    float: left;
+    color: black;
+    background-color: chartreuse;
+}
+
+.back {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: brown;
+}
+
+input[type=text],
+input[type=password],
+input[type=name],
+input[type=address],
+input[type=country],
+input[type=email] {
+    width: 90%;
+    height: 70%;
+}
+
+input[type=number] {
+    width: 40%;
+    margin-left: 9%;
+    height: 70%;
+}
+
+table {
+    width: 25%;
+    height: 90%;
+}
